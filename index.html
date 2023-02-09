@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://www.dafontfree.net/embed/Y3Vyc2VkLXRpbWVyLXVsaWwtcmVndWxhciZkYXRhLzE1MjYvYy8xNzA5ODcvQ3Vyc2VkVGltZXJVTGlMLnR0Zg" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="interface">
+                <div class="container">
+                    <div class="team-ctnr">
+                            <h3>HOME</h3>
+                            <h1 id="home-el"></h1>
+                            <div class="ref-ctnr cursed-text">
+                                <button class="ref-btn" onclick="add1PointToHome()">+1</button>
+                                <button class="ref-btn" onclick="add2PointsToHome()">+2</button>
+                                <button class="ref-btn" onclick="add3PointsToHome()">+3</button>
+                            </div>
+                    </div>
+                    <div class="team-ctnr">
+                        <h3>GUEST</h3>
+                            <h1 id="guest-el"></h1>
+                            <div class="ref-ctnr cursed-text">
+                            <button class="ref-btn" onclick="add1PointToGuest()">+1</button>
+                            <button class="ref-btn" onclick="add2PointsToGuest()">+2</button>
+                            <button class="ref-btn" onclick="add3PointsToGuest()">+3</button>
+                            </div>
+                    </div>
+                    
+                </div>
+                <div class="mod-ctnr">
+                    <button class="mod-btn" onclick="newGame()">Reset</button>
+                    <button class="mod-btn" onclick="endGame()">End Game</button> 
+                </div>   
+            
+        </div>
+    <script src="index.js"></script>
+    </body>
+</html>
